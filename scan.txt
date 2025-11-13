@@ -1,0 +1,59 @@
+# Nmap 7.98 scan initiated Thu Nov 13 20:12:13 2025 as: nmap -sS -oN scan.txt 192.168.1.0/24
+Nmap scan report for RTKGW.bbrouter (192.168.x.x)
+Host is up (0.082s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+80/tcp  open  http
+443/tcp open  https
+MAC Address: HIDDEN (PPC Broadband)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.013s latency).
+All 1000 scanned ports on 192.168.x.x are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: HIDDEN (Unknown)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.0047s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: HIDDEN (TP-Link PTE.)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.039s latency).
+All 1000 scanned ports on 192.168.x.x are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: HIDDEN (Sjit)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.0057s latency).
+All 1000 scanned ports on 192.168.x.x are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: HIDDEN (Unknown)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.0048s latency).
+All 1000 scanned ports on 192.168.1.104 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: HIDDEN (Unknown)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.026s latency).
+All 1000 scanned ports on 192.168.x.x are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: HIDDEN (Unknown)
+
+Nmap scan report for 192.168.x.x
+Host is up (0.00012s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2869/tcp open  icslap
+
+# Nmap done at Thu Nov 13 20:13:24 2025 -- 256 IP addresses (8 hosts up) scanned in 70.95 seconds
