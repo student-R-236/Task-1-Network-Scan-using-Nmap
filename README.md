@@ -1,8 +1,8 @@
 # Task-1-Network-Scan-using-Nmap
-Nmap TCP SYN scan on local network with analysis
+Nmap TCP SYN scan on local network with analysis.  
 This project involves performing a TCP SYN scan on a local network to identify connected devices, open ports, 
-and potential security risks.
-All IP addresses, MAC addresses, and device identifiers have been masked for privacy.
+and potential security risks.  
+All IP addresses, MAC addresses, and device identifiers have been masked for privacy.  
 
 # Tools Used
 -> Nmap 7.98  
@@ -68,35 +68,35 @@ These are default Windows services and file-sharing ports. They can be considere
 
 # Task 1: Wireshark Packet Capture (Optional)
 
-This task demonstrates basic packet capture and network analysis using Wireshark.
+This task demonstrates basic packet capture and network analysis using Wireshark.  
 
 # Tools Used
 
--> Wireshark
--> Npcap (for packet capturing)
+-> Wireshark  
+-> Npcap (for packet capturing)  
 
 # Steps Performed
 
-->Opened Wireshark
-->Selected the active Wi-Fi interface
-->Started packet capture
-->Generated traffic by visiting a website
-->Stopped the capture
+->Opened Wireshark  
+->Selected the active Wi-Fi interface  
+->Started packet capture  
+->Generated traffic by visiting a website    
+->Stopped the capture  
 
 # Applied filters:
 
-dns (Domain Name System)
-tcp.flags.syn==1 (TCP SYN packets)
-Saved capture as wireshark_capture.pcapng
+dns (Domain Name System)  
+tcp.flags.syn==1 (TCP SYN packets)  
+Saved capture as wireshark_capture.pcapng  
 
 # Observations
--> DNS Traffic
-DNS queries and responses were visible.
-Showed domain names the device requested.
-Demonstrates how name resolution works on the network.
+-> DNS Traffic  
+DNS queries and responses were visible.  
+Showed domain names the device requested.  
+Demonstrates how name resolution works on the network.  
 
--> TCP Handshakes
-SYN packets identified using filters.
-Shows how initial connections are established.
-Relates to how Nmap performs SYN scanning.
+-> TCP Handshakes  
+SYN packets identified using filters.  
+Shows how initial connections are established.  
+Relates to how Nmap performs SYN scanning.  
 
