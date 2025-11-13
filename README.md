@@ -63,5 +63,40 @@ These are default Windows services and file-sharing ports. They can be considere
 ->Disable FTP on the router if not needed.  
 ->Restrict SMB(445) sharing on Windows.  
 ->Ensure router admin panel uses strong password & HTTPS.  
-->Keep all IoT device interfaces password protected.  
+->Keep all IoT device interfaces password protected.
+
+
+# Task 1: Wireshark Packet Capture (Optional)
+
+This task demonstrates basic packet capture and network analysis using Wireshark.
+
+# Tools Used
+
+-> Wireshark
+-> Npcap (for packet capturing)
+
+# Steps Performed
+
+->Opened Wireshark
+->Selected the active Wi-Fi interface
+->Started packet capture
+->Generated traffic by visiting a website
+->Stopped the capture
+
+# Applied filters:
+
+dns (Domain Name System)
+tcp.flags.syn==1 (TCP SYN packets)
+Saved capture as wireshark_capture.pcapng
+
+# Observations
+-> DNS Traffic
+DNS queries and responses were visible.
+Showed domain names the device requested.
+Demonstrates how name resolution works on the network.
+
+-> TCP Handshakes
+SYN packets identified using filters.
+Shows how initial connections are established.
+Relates to how Nmap performs SYN scanning.
 
